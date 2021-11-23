@@ -1,0 +1,9 @@
+			CorrelationID:Fixed:0040
+Tool serial number	21-22	01
+	23-36	14 ASCII characters
+Tool number of tightening	37-38	02
+	39-48	10 ASCII digits. Max 4294967295
+Last calibration date	49-50	03
+	51-69	19 ASCII characters. YYYY-MM-DD:HH:MM:SS
+Controller serial number = Ford. RBU Serial = Normal	70-71	04
+	72-81	10 ASCII characters

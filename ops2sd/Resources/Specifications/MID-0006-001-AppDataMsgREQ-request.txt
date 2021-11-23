@@ -1,0 +1,4 @@
+Requested MID	21-24	The data MID ID that is requested. Can be used for ALL request handling.
+Wanted revision	25-27	The revision of the MID that is requested for.
+Extra data length	28-29	The length of the extra data field.
+Extra Data	30-?	binary

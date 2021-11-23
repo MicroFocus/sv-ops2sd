@@ -1,0 +1,6 @@
+			CorrelationID:Fixed:0009
+Unsubscription MID	21-24	The data MID ID to be unsubscribed for. Can be used for ALL subscription handling. For example Mode Selected = 2604, Overall Results = 1201, Last Operation result = 1202
+Extra data revision	25-27	"The revision of the MIDs Extra data that is subscribed for.
+This is needed so that the Controller can determine the revision of the extra data in the unsubscription."
+Extra data length	28-29	The length of the extra data field.
+Extra Data	30-?	binary

@@ -1,0 +1,10 @@
+Name	Offset	Length	Type	Description	Default Value	Data	Attributes
+_Length	0	4	Numeric	Header		+1	1
+_MID_Revision	4	7	String	Header		{CORRELATION}	2
+					{MID}{REVISION}
+_NoAckFlag	11	1	String	Header
+_StationID	12	2	String	Header
+_SpindleID	14	2	String	Header
+_SequenceNo	16	2	String	Header
+_NoOfMessageParts	18	1	String	Header
+_MessagePartNo	19	1	String	Header

@@ -1,0 +1,16 @@
+			CorrelationID:Fixed:0038
+Job ID	21-22	01
+	23-24	The Job ID is specified by two ASCII characters, range 00-99
+Job status	25-26	02
+	27	"The Job batch status is specified by one ASCII character.
+0=Job not completed, 1=Job OK, 2=Job NOK."
+Job batch mode	28-29	03
+	30	"The Job batch mode is the way to count the tightening in a Job only the OK or both OK and NOK. One ASCII character
+0= only the OK tightenings are counted
+1= both the OK and NOK tightenings are counted"
+Job batch size	31-32	04
+	33-36	This parameter gives the total number of tightening in the Job. The Job batch size is four bytes long. Four ASCII characters, range 0000-9999.
+Job batch counter	37-38	05
+	39-42	This parameter gives the current value of the Job batch counter. The Job is completed when the Job batch counter is equal to the Job batch size. The Job batch counter is four bytes long. Four ASCII characters, range 0000-9999.
+Time stamp	43-44	06
+	45-63	Time stamp for the Job info. The time stamp is 19 bytes long and is specified by 19 ASCII characters YYYY-MM-DD:HH:MM:SS.

@@ -1,0 +1,48 @@
+			CorrelationID:Fixed:0038
+Cell ID	21-22	01
+	23-26	The cell ID is four bytes long and specified by four ASCII digits. Range: 0000-9999.
+Channel ID	27-28	02
+	29-30	The channel ID is two bytes long and specified by two ASCII digits. Range: 00-99.
+Torque controller Name	31-32	03
+	33-57	The controller name is 25 bytes long and is specified by 25 ASCII characters.
+VIN Number	58-59	04
+	60-84	The VIN number is 25 bytes long and is specified by 25 ASCII characters.
+Job ID	85-86	05
+	87-88	The Job ID is two bytes long and specified by two ASCII digits. Range: 00-99
+Parameter set ID	89-90	06
+	91-93	The parameter set ID is three bytes long and specified by three ASCII digits. Range: 000-999.
+Batch size	94-95	07
+	96-99	This parameter gives the total number of tightening in the batch. The batch size is four bytes long and specified by four ASCII digits. Range: 0000-9999.
+Batch counter	100-101	08
+	102-105	The batch counter information is four bytes long specifying and specified by four ASCII digits. Range: 0000-9999.
+Tightening Status	106-107	09
+	108	The tightening status is one byte long and specified by one ASCII digit. 0=tightening NOK, 1=tightening OK.
+Torque status	109-110	10
+	111	0=Low, 1=OK, 2=High
+Angle status	112-113	11
+	114	0=Low, 1=OK, 2=High
+Torque Min limit	115-116	12
+	117-122	The torque min limit is multiplied by 100 and sent as an integer (2 decimals truncated). It is six bytes long and is specified by six ASCII digits.
+Torque Max limit	123-124	13
+	125-130	The torque max limit is multiplied by 100 and sent as an integer (2 decimals truncated). It is six bytes long and is specified by six ASCII digits.
+Torque final target	131-132	14
+	133-138	The torque final target is multiplied by 100 and sent as an integer (2 decimals truncated). It is six bytes long and is specified by six ASCII digits.
+Torque	139-140	15
+	141-146	The torque value is multiplied by 100 and sent as an integer (2 decimals truncated). It is six bytes long and is specified by six ASCII digits.
+Angle Min	147-148	16
+	149-153	The angle min value in degrees. Each turn represents 360 degrees. It is five bytes long and specified by five ASCII digits. Range: 00000-99999.
+Angle Max	154-155	17
+	156-160	The angle max value in degrees. Each turn represents 360 degrees. It is five bytes long and specified by five ASCII digits. Range: 00000-99999.
+Final Angle Target	161-162	18
+	163-167	The target angle value in degrees. Each turn represents 360 degrees. It is five bytes long and specified by five ASCII digits. Range: 00000-99999.
+Angle	168-169	19
+	170-174	The turning angle value in degrees. Each turn represents 360 degrees. It is five bytes long and specified by five ASCII digits. Range: 00000-99999.
+Time stamp	175-176	20
+	177-195	"Time stamp for each tightening. It is 19 bytes long and is specified by 19 ASCII characters
+(YYYY-MM-DD:HH:MM:SS)."
+Date/time of last change in parameter set settings	196-197	21
+	198-216	Time stamp for the last change in the current parameter set settings. It is 19 bytes long and is specified by 19 ASCII characters (YYYY-MM- DD:HH:MM:SS).
+Batch status	217-218	22
+	219	The batch status is specified by one ASCII character. 0=batch NOK (batch not completed), 1=batch OK, 2=batch not used.
+Tightening ID	220-221	23
+	222-231	The tightening ID is a unique ID for each tightening result. It is incremented after each tightening. 10 ASCII digits.  Max 4294967295

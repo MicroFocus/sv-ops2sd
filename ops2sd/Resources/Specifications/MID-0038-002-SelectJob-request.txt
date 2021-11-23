@@ -1,0 +1,2 @@
+			CorrelationID:Fixed:0038
+Job ID	21-24	The Job ID is specified by four ASCII characters. Range: 0000-9999

@@ -1,0 +1,2 @@
+MID number	21-24	MID number	CorrelationID:Payload:0003,0006,0008,0009,0034,0037,0039,0042,0043,0044,0060,0063,0070,0073,0127,0224
+Error code	25-26	Error code for the sent message, see Table 18

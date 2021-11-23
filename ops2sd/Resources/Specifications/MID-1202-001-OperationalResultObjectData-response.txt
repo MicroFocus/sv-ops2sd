@@ -1,0 +1,7 @@
+			CorrelationID:Fixed:0038
+Total no of messages	21-23	The total number of messages needed to send all object data for all objects, including message MID 1201 Last operation result Overall data, sent with the station data. One message MID 1202 Last operation result Object data is sent for each Bolt.
+Message number	24-26	"This number counts from 002 to Total no of messages and is incremented by 1 for each sent message.
+Result Data Identifier	27-36	The Result Data Identifier is a unique ID for each object result within the system. Will always match the Result identifier sent in MID 1201 Last operation result Overall data.
+Object Id	37-40	The user defined Object Id.
+Number of data fields	41-43	The number of variable data fields in the telegram. Format: ASCII digits. If no values exist “000” will be sent.
+Data fields	44-?	binary; This section is repeated Number of data fields times. If Number of data fields = 000, this section is not sent. The structure is of variable parameter type see Variable Data Field Use

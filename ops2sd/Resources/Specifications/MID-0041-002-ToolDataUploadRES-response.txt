@@ -1,0 +1,28 @@
+			CorrelationID:Fixed:0040
+Tool serial number	21-22	01
+	23-36	14 ASCII characters
+Tool number of tightening	37-38	02
+	39-48	10 ASCII digits. Max 4294967295
+Last calibration date	49-50	03
+	51-69	19 ASCII characters. YYYY-MM-DD:HH:MM:SS
+Controller serial number = Ford. RBU Serial = Normal	70-71	04
+	72-81	10 ASCII characters
+Calibration value	82-83	05
+	84-89	The tool calibration value is multiplied by 100 and sent as an integer (2 decimals truncated). Six ASCII digits.
+Last service date	90-91	06
+	92-110	YYYY-MM-DD:HH:MM:SS
+Tightenings since service	111-112	07
+	113-122	The number of tightenings since last service is specified by 10 ASCII digits. Max 4294967295.
+Tool type	123-124	08
+	125-126	"The tool type is specified by 2 ASCII digits:  00=No Tool, 01=S-tool, 02=DS-tool, 03=Ref. transducer, 04=ST-tool, 05=EP-tool, 06=ETX-tool,
+07=SL-tool, 08=DL-tool, 09=IRC Offline, 10=STB-
+tool, 11=QST-tool, 12=STT-tool, 13=STwrench, 14 = ES-tool"
+Motor size	127-128	09
+	129-130	"The motor size is specified by 2 ASCII digits, range 00-99.
+00 = no motor, 01-99 = motor size xx in Atlas Copco nomenclature, or motor size = 10xx in Atlas Copco nomenclature (certain numbers correspond to 2 different motor sizes, for example 62 for both motor size 62 and motor size 1062)"
+Open end data	131-132	10
+	133-135	"The open end data is specified by 3 ASCII digits. The first digit represents the “use open end”: 1=true, 0=false.
+The second digit indicates the tightening direction: 0=CW, 1=CCW.
+The third digit indicates motor rotation: 0=normal, 1=inverted."
+Controller software version	136-137	11
+	138-156	The software version is specified by 19 ASCII characters.

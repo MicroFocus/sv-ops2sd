@@ -1,0 +1,1 @@
+Error code	21-24	Four ASCII characters

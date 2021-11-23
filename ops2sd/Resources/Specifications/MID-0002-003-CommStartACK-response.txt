@@ -1,0 +1,16 @@
+Cell ID	21-22	01
+	23-26	"The cell ID is four bytes long specified by four ASCII digits.
+Range: 0000-9999."
+Channel ID	27-28	02
+	29-30	"The channel ID is two bytes long specified by two ASCII digits.
+Range: 00-20."
+Controller Name	31-32	03
+	33-57	The controller name is 25 bytes long and specified by 25 ASCII characters.
+Supplier code	58-59	04
+	60-62	ACT (supplier code for Atlas Copco Tools) specified by three ASCII characters.
+Open Protocol version	63-64	05
+	65-83	Open Protocol version. 19 ASCII characters. This version mirrors the IMPLEMENTED version of the Open Protocol and is hence not the same as the version of the specification. This is caused by, for instance, the possibility of implementation done of only a subset of the protocol.
+Controller software version	84-85	06
+	86-104	The controller software version. 19 ASCII characters.
+Tool software version	105-106	07
+	107-125	The tool software version. 19 ASCII characters.

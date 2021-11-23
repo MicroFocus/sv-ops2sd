@@ -1,0 +1,9 @@
+			CorrelationID:Fixed:0038
+Total no of messages	21-23	The total number of messages needed to send all data for all tools/screws in the tightening. The rest of the messages are of type MID 1202 Operation result object data, one message for each object.
+Message number	24-26	This parameter is always 001 as this is the first message.
+Result Data Identifier	27-36	The Result Data Identifier is a unique ID for each operation result within the system.
+Time	37-56	Cycle start time for each operation sent to the control station. The time is 19 byte long and is specified by 19 ASCII characters (YYYY-MM- DD:HH:MM:SS)
+Result status	57-57	"The total status of the operation. One byte long and is specified by one ASCII digit (‘0’ or ‘1’).
+Operation type	58-59	"Operation type:
+Number of objects	60-62	"The total number of objects in the operation
+Object data	63-?	binary

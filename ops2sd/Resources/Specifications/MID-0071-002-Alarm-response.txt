@@ -1,0 +1,10 @@
+Error code	21-22	01
+	23-27	The error code is specified by 5 ASCII characters. But doesn’t have to be five characters long, not used characters are replaced with space or according to application specific appendix. Example E1021.
+Controller ready status	28-29	02
+	30	Controller ready status 1=OK, 0=NOK
+Tool ready status	31-32	03
+	33	Tool ready status 1=OK, 0=NOK
+Time	34-35	04
+	36-54	Time stamp for the alarm. 19 ASCII characters. YYYY-MM-DD:HH:MM:SS
+Alarm text	55-56	05
+	57-107	Alarm text. 50 ASCII characters

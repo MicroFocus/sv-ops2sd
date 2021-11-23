@@ -1,0 +1,2 @@
+			CorrelationID:Fixed:0224
+Digital input function number	21-23	Three ASCII digits, see Table 128 and add 0 before the number in the list.
